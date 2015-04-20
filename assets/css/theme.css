@@ -6,7 +6,8 @@
 @font-face {
   font-family: "Pacifico";
   src: url('../fonts/pacifico-webfont.eot?1402738684');
-  src: url('../fonts/pacifico-webfont.eot?&1402738684#iefix') format('embedded-opentype'), url('../fonts/pacifico-webfont.woff?1402738684') format('woff'), url('../fonts/pacifico-webfont.ttf?1402738684') format('truetype'), url('../fonts/pacifico-webfont.svg?1402738684#pacificowebfont') format('svg'); }
+  src: url('../fonts/pacifico-webfont.eot?&1402738684#iefix') format('embedded-opentype'), url('../fonts/pacifico-webfont.woff?1402738684') format('woff'), url('../fonts/pacifico-webfont.ttf?1402738684') format('truetype'), url('../fonts/pacifico-webfont.svg?1402738684#pacificowebfont') format('svg');
+}
 /* Font Family 1 (headings) */
 h1, h2, h3, h4, h5, h6,
 .site-navigation,
@@ -16,9 +17,9 @@ h1, h2, h3, h4, h5, h6,
 .blog-loop.columns article header,
 .filter,
 .blog-single .comment-list li header,
-.order-menu .food-item.price-right header .quantity,
-.countdown {
-  font-family: 'Pacifico'; }
+.order-menu .food-item.price-right header .quantity {
+  font-family: 'Pacifico';
+}
 
 /* Font Family 2 (main texts) */
 body,
@@ -30,18 +31,22 @@ textarea,
 h1.style-2, h2.style-2, h3.style-2, h4.style-2, h5.style-2, h6.style-2,
 .panel-title,
 .recent-widget ul li > h5 {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+}
 
 /* =Text Colors
 -------------------------------------------------------------- */
 /* main text color */
 body,
 .widget-container .twitter {
-  color: #727272; }
+  color: #727272;
+}
 
 @media (min-width: 992px) {
   .responsive .site-navigation .sub-menu a {
-    color: #727272; } }
+    color: #727272;
+  }
+}
 
 /* light text color */
 .site-navigation li > a,
@@ -51,7 +56,6 @@ mark,
 .pricing-table .price,
 .icon .fa,
 span.page-numbers,
-.active .page-numbers,
 a.page-numbers:hover,
 .tagcloud a:hover,
 .jumbotron h5,
@@ -68,18 +72,15 @@ a.page-numbers:hover,
 a.carousel-control i,
 a.carousel-control:hover i,
 .menu-dark.sticky-scroll .site-navigation > li > a,
-.menu-dark.sticky-scroll div.site-navigation > ul > li > a,
 .btn:focus,
-a.btn:hover i,
-.coming-soon *,
-a.pp_close {
-  color: #fff; }
+a.btn:hover i {
+  color: #fff;
+}
 
 /* headings */
 h1, h2, h3, h4, h5, h6,
 .page-heading ul li a,
 .dropcaps:first-letter,
-div.style-2 .page-numbers a,
 .page-numbers.style-2 a,
 .nav-tabs > li a,
 .panel .panel-heading a.collapsed,
@@ -97,33 +98,31 @@ blockquote,
 .recent-widget ul li > h5,
 .recent-widget ul li > .post-date,
 a:hover i {
-  color: #363636; }
+  color: #363636;
+}
 
 .btn.style-2.secondary,
 .btn.style-2:hover,
 .btn.style-2:focus {
-  color: #363636 !important; }
+  color: #363636 !important;
+}
 
-strong {
-  color: #000; }
+strong,
+.menu-dark .site-navigation li > a {
+  color: #000;
+}
 
-@media (min-width: 992px) {
-  .menu-dark .site-navigation li > a {
-    color: #000; } }
 /* primary color */
 a,
 .color,
-div.site-navigation ul > li a:hover,
 .site-navigation > li a:hover,
 .site-navigation li.active > a,
-.site-navigation li.current_page_item > a,
 .site-navigation .sub-menu a:hover,
 .page-heading ul li span,
 .dropcaps.style-2:first-letter,
 .list li:before,
 i.fa,
 .pricing-table.style-2 header,
-div.style-2 .page-numbers a.page-numbers:hover,
 .page-numbers.style-2 a.page-numbers:hover,
 .nav-tabs > li.active a,
 .nav-tabs > li a:hover,
@@ -131,8 +130,8 @@ div.style-2 .page-numbers a.page-numbers:hover,
 .panel .panel-heading a,
 .panel .panel-heading a:hover,
 .food-item .price,
-.landing-page a:hover h4,
-.landing-page a:hover h5,
+.landing-page .demo-selection a:hover h4,
+.landing-page .demo-selection a:hover h5,
 blockquote:before,
 .site-footer .copyright .social a:hover,
 a:hover h2,
@@ -144,19 +143,13 @@ a:hover h2,
 .order-menu .food-item.price-right header .quantity .minus,
 .order-menu .food-item.price-right header .quantity .plus,
 .food-item.active header h3,
-.order-menu-wrapper .close-order,
-.search-posts li a:hover i,
-.search-posts li a:hover h4 {
-  color: #ff9c00; }
+.order-menu-wrapper .close-order {
+  color: #f95f23;
+}
 
 .icon span {
-  color: #bfbfbf; }
-
-.btn.style-2.danger {
-  color: #f95f22; }
-
-.btn.style-2.success {
-  color: #87c73c; }
+  color: #bfbfbf;
+}
 
 /* =Background Colors
 -------------------------------------------------------------- */
@@ -166,9 +159,7 @@ mark,
 .pricing-table header,
 .icon .fa,
 span.page-numbers,
-.active .page-numbers,
 a.page-numbers:hover,
-div.style-2 .page-numbers span.page-numbers,
 .page-numbers.style-2 span.page-numbers,
 .tagcloud a:hover,
 .nav-tabs.style-2 > li.active:before,
@@ -190,17 +181,15 @@ div.style-2 .page-numbers span.page-numbers,
 .testimonials .carousel-indicators li.active,
 a.carousel-control i,
 .order-menu-wrapper .close-order:after,
-.order-menu-wrapper .order-menu .mobile-close,
-.countdown li span {
-  background-color: #ff9c00; }
-
-a.pp_close {
-  background: #ff9c00 !important; }
+.order-menu-wrapper .order-menu .mobile-close {
+  background-color: #f95f23;
+}
 
 .mini-logo *,
 .mini-logo-2 *,
 .mini-logo-3 * {
-  fill: #ff9c00; }
+  fill: #f95f23;
+}
 
 mark.style-2,
 .twitter .carousel-indicators li:hover,
@@ -210,48 +199,53 @@ mark.style-2,
 .widget-container .twitter .carousel-indicators li,
 .testimonials .carousel-indicators li,
 a.carousel-control:hover i {
-  background-color: #363636; }
+  background-color: #363636;
+}
 
 .btn.secondary,
 .btn:hover,
 .btn:focus {
-  background-color: #363636 !important; }
+  background-color: #363636 !important;
+}
 
 .site-header,
 .pricing-table.style-2 header,
 .pricing-table.style-2 .btn {
-  background-color: #2e1e1f; }
+  background-color: #2e1e1f;
+}
 
 @media (min-width: 992px) {
   .responsive .site-navigation .sub-menu {
-    background-color: #fff; } }
+    background-color: #fff;
+  }
+}
 @media (max-width: 992px) {
   .responsive .site-navigation {
-    background-color: #333; } }
+    background-color: #333;
+  }
+}
 
 .site-header .navbar-header button:hover {
-  background-color: #333; }
+  background-color: #333;
+}
 
 ::-moz-selection {
   color: #fff;
-  background-color: #ff9c00; }
+  background-color: #f95f23;
+}
 
 ::selection {
   color: #fff;
-  background-color: #ff9c00; }
+  background-color: #f95f23;
+}
 
 .ls-kataleya .ls-bottom-slidebuttons a,
 .carousel.post-images .carousel-indicators li,
 .blog-loop article,
 .blog-loop article .post-inner,
 .twitter .carousel-indicators li {
-  background-color: #fff; }
-
-.btn.danger {
-  background-color: #f95f22; }
-
-.btn.success {
-  background-color: #87c73c; }
+  background-color: #fff;
+}
 
 /* =Border Colors
 -------------------------------------------------------------- */
@@ -262,7 +256,8 @@ a.carousel-control:hover i {
 .form-date input[type="password"]:focus,
 .form-date textarea:focus,
 .form-date select:focus {
-  border: 1px solid rgba(0, 0, 0, 0.25); }
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
 
 .form-date input[type="text"],
 .form-date input[type="tel"],
@@ -271,7 +266,8 @@ a.carousel-control:hover i {
 .form-date input[type="password"],
 .form-date textarea:focus,
 .form-date select {
-  border: 1px solid #ff9c00; }
+  border: 1px solid #f95f23;
+}
 
 input[type="text"]:focus,
 input[type="tel"]:focus,
@@ -279,16 +275,21 @@ input[type="email"]:focus,
 input[type="number"]:focus,
 input[type="password"]:focus,
 textarea:focus, select:focus {
-  border: 1px solid #ff9c00; }
+  border: 1px solid #f95f23;
+}
 
 @media (min-width: 992px) {
   .responsive .site-navigation .sub-menu {
-    border-color: #ff9c00 !important; } }
+    border-color: #f95f23 !important;
+  }
+}
 
 .nav-tabs > li.active {
-  border-bottom-color: #ff9c00; }
+  border-bottom-color: #f95f23;
+}
 
 .blog-single .comment-list li img,
 .blog-single .author img,
 .recent-posts-widget ul li img {
-  border-color: #ff9c00; }
+  border-color: #f95f23;
+}
